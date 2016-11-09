@@ -1,5 +1,6 @@
 {
     "ServiceSettings": {
+        "SiteURL": "",
         "ListenAddress": ":8065",
         "MaximumLoginAttempts": 10,
    "EnableOAuthServiceProvider": false,
@@ -26,19 +27,19 @@
         "RestrictCustomEmojiCreation": "none"
     },
     "TeamSettings": {
-        "SiteName": "PGNests",
-        "MaxUsersPerTeam": 1000,
+        "SiteName": "PGN",
+        "MaxUsersPerTeam": 50,
         "EnableTeamCreation": true,
         "EnableUserCreation": true,
         "EnableOpenServer": true,
         "RestrictCreationToDomains": "",
         "EnableCustomBrand": true,
-        "CustomBrandText": "",
-        "CustomDescriptionText": "",
-        "RestrictDirectMessage": false,
-        "RestrictTeamInvite": false,
-        "RestrictPublicChannelManagement": false,
-        "RestrictPrivateChannelManagement": false,
+        "CustomBrandText": "PGNests",
+        "CustomDescriptionText": "PGNests Community",
+        "RestrictDirectMessage": "any",
+        "RestrictTeamInvite": "all",
+        "RestrictPublicChannelManagement": "all",
+        "RestrictPrivateChannelManagement": "all",
         "UserStatusAwayTimeout": 300,
         "MaxChannelsPerTeam": 2000
     },
